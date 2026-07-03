@@ -4,6 +4,8 @@
 
 项目目标不是简单画图，而是根据音频信号计算频谱变化，检测节拍点，并估计音乐 BPM。
 
+项目仓库：[https://github.com/HanjingLaura/music-spectrum-beat-detection](https://github.com/HanjingLaura/music-spectrum-beat-detection)
+
 ## 功能
 
 - 读取 WAV 音频并转换为单声道浮点信号
@@ -24,6 +26,8 @@ music-spectrum-beat-detection/
 ├── .gitignore
 ├── data/
 │   └── README.md
+├── docs/
+│   └── 音乐频谱分析与节拍检测专题报告_增强版.docx
 ├── outputs/
 │   └── .gitkeep
 └── music_spectrum_beat_detection/
@@ -164,51 +168,3 @@ Figures saved to: ...\outputs
 ```
 
 由于默认测试音频设定为 120 BPM，检测结果 117.5 BPM 与设定值比较接近，说明程序能够根据音频节奏进行估计。
-
-## 输出文件夹说明
-
-如果运行过多次测试，可能会看到类似目录：
-
-```text
-outputs/
-outputs_bpm90/
-outputs_bpm150/
-```
-
-这些目录都是运行代码后自动生成的实验输出：
-
-- `outputs/`：默认 demo 测试结果
-- `outputs_bpm90/`：90 BPM demo 测试结果
-- `outputs_bpm150/`：150 BPM demo 测试结果
-
-它们不是核心代码，主要用于查看实验结果和放入报告。
-
-## 开源上传建议
-
-上传到 GitHub / Gitee 时，建议保留：
-
-- `main.py`
-- `requirements.txt`
-- `README.md`
-- `.gitignore`
-- `data/README.md`
-- `outputs/.gitkeep`
-- `music_spectrum_beat_detection/`
-
-不建议上传：
-
-- 商业音乐原文件
-- 大体积音频文件
-- 临时生成的输出文件夹
-
-如果需要展示效果，可以上传少量自录音频、免版权音频，或者只上传生成后的图片。
-
-## 数据与版权说明
-
-开源仓库中不建议上传完整商业歌曲。可以使用：
-
-- 本项目自动生成的合成测试音频
-- 自己录制的拍手、敲击、节拍器声音
-- 免版权音乐或公开数据集音频
-
-如果课程报告中使用了商业歌曲进行本地测试，建议只展示分析结果，不把原始音频上传到公开仓库。

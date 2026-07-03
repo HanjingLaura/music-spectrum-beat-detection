@@ -16,6 +16,8 @@ Thumbs.db
 # Generated analysis outputs
 outputs/*
 !outputs/.gitkeep
+outputs_*/
+work_check_outputs/
 
 # Keep demo/royalty-free examples small and intentional.
 # Do not upload copyrighted commercial songs.
