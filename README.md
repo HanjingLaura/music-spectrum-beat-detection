@@ -26,8 +26,6 @@ music-spectrum-beat-detection/
 ├── .gitignore
 ├── data/
 │   └── README.md
-├── docs/
-│   └── 音乐频谱分析与节拍检测专题报告_增强版.docx
 ├── outputs/
 │   └── .gitkeep
 └── music_spectrum_beat_detection/
