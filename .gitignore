@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+.idea/
+.vscode/
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated analysis outputs
+outputs/*
+!outputs/.gitkeep
+
+# Keep demo/royalty-free examples small and intentional.
+# Do not upload copyrighted commercial songs.
+data/*.mp3
+data/*.flac
+data/*.m4a
+data/*.wav
+!data/README.md
